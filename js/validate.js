@@ -68,7 +68,7 @@ window.addEventListener("load", function() {
         };
 
         if (orderBox.classList.contains("show")) {
-            if (orderNo.value === '' || orderNo.value === null) {
+            if (orderNo.value === '' || orderNo.value === null || orderNo.value === 'NA') {
                 messages.push('Order number is required');
             }
         } else {
