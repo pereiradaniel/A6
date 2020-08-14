@@ -115,14 +115,13 @@ footer a {
     text-align: center;
 }
 
-input[type=radio] + .ordermask {
-  display:none;
-}
-
-input[type=radio]:checked + .ordermask{
-   display:block;
-}
-
 .block {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+.show { 
     display: block;
 }

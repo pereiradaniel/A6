@@ -7,6 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Tillana:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Asul:wght@700&family=Concert+One&family=Tillana:wght@500&display=swap" rel="stylesheet">
+    <script src= 
+"https://code.jquery.com/jquery-1.12.4.min.js"> 
+    </script> 
     <script src="js/validate.js"></script>
     <title>WEB222 Store</title>
   </head>
@@ -65,10 +68,11 @@
           <input type="radio" id="orderproblem" name="msgtype" value="orderproblem">
         </label>
         
-
-        <label class="block" for="order-no" id="order-no">Order Number:
-          <input class="require-if-active" id="order-no" name="order-no" type="text" data-require-pair="#orderproblem">
-        </label>
+        <div id="order-box">
+          <label for="order-no">Order Number:
+            <input id="order-no" name="order-no" type="text">
+          </label>
+        </div>
 
         <label class="block" for="message">Message
           <textarea class="block" name="message" id="message">
@@ -79,6 +83,7 @@
 
         <button class="block" type="submit">Send</button>
       </form>
+
       <div id="error"></div>
     </div>
 
