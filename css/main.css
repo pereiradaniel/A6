@@ -125,3 +125,7 @@ footer a {
 .show { 
     display: block;
 }
+
+#form {
+    margin: 10%;
+}
