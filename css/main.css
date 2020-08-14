@@ -1,0 +1,111 @@
+/* Add any CSS you need to this file. */
+body {
+    background-color: #684c30;
+    font-family: 'Asul', sans-serif;
+}
+
+#items-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-basis: 100px;
+    padding: 1em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#items-wrapper {
+    text-align: center;
+}
+
+.item {
+    background-color: #78813C;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 5px;
+    width: 20%;
+    padding: 1em;
+}
+
+.item-image {
+    width: 100px;
+    border-radius: 4px;
+    margin: 1em;
+}
+
+.item-desc {
+    text-align: left;
+    padding: 1em;
+    color: white;
+}
+
+.item-price {
+    text-align: left;
+    padding: 1em;
+    text-decoration: underline;
+}
+
+#title {
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    color: powderblue;
+    text-shadow: 0px 0px 8px black;
+    padding: 1em;
+    background-color: olivedrab;
+    background-image: url("../images/bgroundcamo.png");
+}
+
+#subtitle {
+    font-family: 'Tillana', cursive;
+    text-align: center;
+    color: #222831;
+}
+
+#menu {
+    text-align: center;
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    color: powderblue;
+    text-shadow: 0px 0px 8px black;
+    padding: 1em;
+    background-color: olivedrab;
+    background-image: url("../images/bgroundcamo.png");
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.highlighted {
+    background-color: olivedrab;
+}
+
+.menu-button {
+    padding: 1em;
+    color: white;
+}
+
+.float-right {
+    top: 50%;
+    right: 1em;
+    bottom: 50%;
+    position: absolute;
+}
+
+.block {
+    display: block;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
