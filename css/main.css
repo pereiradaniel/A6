@@ -109,3 +109,20 @@ footer a {
     text-align: center;
     width: 100%;
 }
+
+.contact {
+    text-decoration: underline;
+    text-align: center;
+}
+
+input[type=radio] + .ordermask {
+  display:none;
+}
+
+input[type=radio]:checked + .ordermask{
+   display:block;
+}
+
+.block {
+    display: block;
+}
